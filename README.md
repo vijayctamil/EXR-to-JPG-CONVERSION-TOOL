@@ -38,10 +38,3 @@ sRGB
 Rec.709
 
 If input is ACEScg, the tool uses the OCIO config for accurate tone mapping and display rendering.
-
-🚀 Getting Started
-📦 Install dependencies:
-bash
-Copy
-Edit
-pip install PySide6 OpenImageIO PyOpenColorIO numpy
