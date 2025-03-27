@@ -1,4 +1,4 @@
-# ✨ EXR to JPG Converter – ACES & Color-Space Aware Tool
+# ✨ EXR to JPG Converter – ACES & Color-Space Supporting Tool
 
 A user-friendly **PySide6 GUI application** that batch converts `.exr` image sequences to `.jpg` with **accurate color space transforms**, including **ACEScg** to `sRGB` or `Rec.709`. Built with production-ready tools like **OpenImageIO**, **OpenColorIO**, and **NumPy**, it ensures high-quality conversions while maintaining speed and flexibility.
 
@@ -6,7 +6,6 @@ A user-friendly **PySide6 GUI application** that batch converts `.exr` image seq
 
 ## 🛠️ Features
 
-- 🔍 **Batch convert** folders of EXR sequences to JPGs  
 - 🎨 Supports accurate **ACEScg → sRGB / Rec.709** color pipeline using OCIO  
 - 📦 Optional support for RAW (linear Rec.709) input  
 - 📁 Custom **input and output folder selection**  
@@ -39,7 +38,7 @@ If input is ACEScg, the tool uses the OCIO config for accurate tone mapping and 
 ### 📦 Install dependencies:
 
 ```bash
-pip install PySide6 OpenImageIO PyOpenColorIO numpy
+pip install PySide6 OpenImageIO OpenColorIO numpy
 ```
 
 Make sure you have the **ACES 1.0.3 OCIO config** and update the path in the script:
@@ -51,14 +50,8 @@ OCIO_CONFIG_PATH = "C:/ACES/aces_1.0.3/config.ocio"
 ### ▶️ Run the tool:
 
 ```bash
-python Conversion_Tool_v004.py
+python EXR_to_JPG_Conversion_Tool.py
 ```
-
----
-
-## 🖼️ Screenshots
-
-(Add some GUI screenshots here if you want!)
 
 ---
 
@@ -66,13 +59,9 @@ python Conversion_Tool_v004.py
 
 ```
 EXR_to_JPG_Converter/
-├── Conversion_Tool_v004.py
+├── EXR_to_JPG_Conversion_Tool.py
 ├── README.md
-└── assets/               # Optional screenshots, logos, etc.
+└── assets/               # Optional
 ```
 
 ---
-
-## 📜 License
-MIT License – free to use, modify, and share.
-
