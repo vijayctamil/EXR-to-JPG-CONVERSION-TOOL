@@ -23,3 +23,25 @@ OpenImageIO
 OpenColorIO
 
 NumPy
+
+🎛️ Color Workflow
+Supports two input color spaces:
+
+ACEScg (transformed via OCIO using ACES 1.0.3 config)
+
+RAW (Linear Rec.709) (converted using gamma curves)
+
+And two output transforms:
+
+sRGB
+
+Rec.709
+
+If input is ACEScg, the tool uses the OCIO config for accurate tone mapping and display rendering.
+
+🚀 Getting Started
+📦 Install dependencies:
+bash
+Copy
+Edit
+pip install PySide6 OpenImageIO PyOpenColorIO numpy
