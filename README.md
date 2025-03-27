@@ -15,7 +15,11 @@ A user-friendly PySide6 GUI application that batch converts .exr image sequences
 ⚡ Optimized buffer-based OCIO processing for speed
 
 🧰 Built using:
-    PySide6
-    OpenImageIO
-    OpenColorIO
-    NumPy
+
+PySide6
+
+OpenImageIO
+
+OpenColorIO
+
+NumPy
