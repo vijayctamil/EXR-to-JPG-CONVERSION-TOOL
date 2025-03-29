@@ -23,7 +23,7 @@ A user-friendly **PySide6 GUI application** that batch converts `.exr` image seq
 
 ## 🎬 Watch Demo
 
-Check out the full demo on [Youtube]([https://vimeo.com/123456789](https://youtu.be/OSSNLqngobw)).
+Check out the full demo on [Youtube](https://youtu.be/OSSNLqngobw).
 
 ---
 
